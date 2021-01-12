@@ -1,0 +1,43 @@
+body {
+    background-image: url(bg2.jpg);
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: verdana;
+    text-transform: capitalize;
+}
+
+.box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(116, 116, 116, 0.15);
+    border-radius: 20px;
+    z-index: 1;
+    backdrop-filter: blur(6px);
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    outline: transparent;
+}
+
+.loginbtn {
+    width: 250px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    outline: transparent;
+    background: #4267b2;
+}
